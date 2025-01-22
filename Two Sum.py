@@ -10,4 +10,6 @@ class Solution:
         for i in range(len(nums)):
             for j in range(i+1,len(nums)):
                 if nums[i] + nums[j] == target:
+                    #i created the 2 loop if the sum of  indices of the two loop array equal to target 
                     return [i,j]
+                    # get the respective indices
