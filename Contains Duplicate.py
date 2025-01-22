@@ -2,8 +2,11 @@
 # otherwise return false.
  class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
+        #my logic is i created the list of value 
         a = list()
         for i in nums:
+         #if the value which is already present in list 
+         # it give true that means contain duplicate other wise false
             if i in a:
                 return True
             else:
