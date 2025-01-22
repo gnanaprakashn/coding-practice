@@ -5,4 +5,6 @@ class Solution:
         if len(s) != len(t):
             return False
         else:
+            #my logic is i sorted the two words if its is equal it is anagrams othere not
             return sorted(s) == sorted(t)
+            
