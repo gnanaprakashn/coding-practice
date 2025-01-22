@@ -10,11 +10,11 @@ class Solution:
             # Sort the word to use as the dictionary key
             a = ''.join(sorted(word))
             
-            # Add the word to the corresponding group
+          # here i and add the group of the word respectively into the dic this is my logic
             if a in anagrams:
                 anagrams[a].append(word)
             else:
                 anagrams[a] = [word]
         
-        # Collect and return all the anagram groups
+        # Collect and return all the anagram groups values using the values funcition
         return list(anagrams.values())
